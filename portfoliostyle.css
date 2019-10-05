@@ -1,0 +1,212 @@
+html{
+  margin: 0 40px 0 40px;
+  padding: 0;
+}
+body{
+  background-color: white;
+  background-repeat: no-repeat;
+  font-family: 'Oxygen', 'futura';
+  padding: 10px
+}
+#nav-bar{
+  list-style-type: none;
+  margin: 0px;
+  text-align: center;
+  float:right;
+  margin: auto;
+  display: inline;
+}
+.nav-bar-item{
+  padding: 5px;
+}
+h1{
+  text-align: left;
+  display: block;
+  font-size: 60px;
+  font-family: "Oxygen", "futura";
+  padding: 10px 0 0 0;
+  margin: auto;
+  color:#005265;
+}
+h2{
+  margin-top: 5px;
+}
+h3{
+  display: block;
+  font-size: 40px;
+  font-family: "Oxygen", "futura";
+  padding: 0 0 0 0;
+  margin: 5px 0 0 0;
+  color:#046B99;
+}
+h4{
+  text-align: center;
+  margin: 5px 0 10px 0;
+  font-family: "Oxygen", "futura";
+  font-size: 15px;
+}
+h5{
+  text-align: center;
+  font-size: 12px;
+  font-family: "Oxygen", "futura";
+  padding: 0;
+}
+p{
+  text-align: justify;
+  font-size: 18px;
+  font-family: "Oxygen", "futura";
+}
+#link{
+  color: black;
+  text-decoration: none;
+}
+#hyperlink{
+  color: blue;
+  text-decoration: none;
+}
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.profile-image{
+  position: relative;
+  border-radius: 50%;
+  width: 350px;
+  margin: 0 0 10px 0 ;
+  padding: 0 0 0 0;
+  float: left;
+}
+.section{
+  /*background-color: #ffff;*/
+  padding: 0 15px 0 15px;
+  margin-bottom: 10px;
+  overflow: auto;
+}
+#welcome-section{
+  border-bottom: 1px solid black;
+}
+.about-text{
+  position: relative;
+  align-content: center;
+  text-align: justify;
+  margin: auto;
+  padding: 0 0 20px 0;
+  float: right;
+  display: inline;
+}
+.gallery {
+    margin-top: 30px;
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: repeat(10, 10fr); /*columns with width of 1 fr*/
+    grid-template-rows: repeat(9, 5vw); /*eight rows with width of 5% viewport width*/
+    grid-row-gap: 30px;
+}
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gallery__item--1{
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+.gallery__item--2{
+  grid-column-start: 4;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+.gallery__item--3{
+  grid-column-start: 7;
+  grid-column-end: 10;
+  grid-row-start: 1;
+  grid-row-end: 5;
+}
+.gallery__item--4{
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 5;
+  grid-row-end: 9;
+}
+.gallery__item--5{
+  grid-column-start: 4;
+  grid-column-end: 7;
+  grid-row-start: 5;
+  grid-row-end: 9;
+}
+.gallery__item--6{
+  grid-column-start: 7;
+  grid-column-end: 10;
+  grid-row-start: 5;
+  grid-row-end: 9;
+}
+.icon{
+  display: inline-block;
+  text-align: center;
+}
+.grid{
+  margin-top: 30px;
+  margin-left: 100px;
+  display: grid;
+  grid-template-columns: repeat(11, 10fr);
+  grid-template-rows: repeat(16, 5vw);
+  grid-gap: 15px;
+}
+.grid-image{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.grid__item1{
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 6;
+}
+.grid__item2{
+  grid-column-start: 6;
+  grid-column-end: 11;
+  grid-row-start: 1;
+  grid-row-end: 6;
+}
+.grid__item3{
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 6;
+  grid-row-end: 11;
+}
+.grid__item4{
+  grid-column-start: 6;
+  grid-column-end: 11;
+  grid-row-start: 6;
+  grid-row-end: 11;
+}
+.grid__item5{
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 11;
+  grid-row-end: 16;
+}
+.grid__item6{
+  grid-column-start: 6;
+  grid-column-end: 11;
+  grid-row-start: 11;
+  grid-row-end: 16;
+}
+figcaption{
+  text-align:center;
+}
+footer{
+  position: relative;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border-top: 1px solid black;
+  font-size: 20px;
+  font-family: "Oxygen", "futura";
+  text-align: center;
+}
